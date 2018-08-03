@@ -19,5 +19,4 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3.6',
     ],
-    py_modules=['dataclasses']
-)
+    packages=['dataclasses'])
