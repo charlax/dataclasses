@@ -19,4 +19,5 @@ setup(
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 3.6',
     ],
+    package_data={"dataclasses": ["py.typed", "__init__.pyi"]},
     packages=['dataclasses'])
